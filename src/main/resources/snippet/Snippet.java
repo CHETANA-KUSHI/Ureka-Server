@@ -1,0 +1,14 @@
+package snippet;
+
+public class Snippet {
+	server:
+	  port: 8761
+	
+	eureka:
+	  client:
+	    register-with-eureka: false   # Eureka server does not register with itself
+	    fetch-registry: false         # Eureka server does not fetch registry (no need)
+	  instance:
+	    hostname: localhost
+}
+
